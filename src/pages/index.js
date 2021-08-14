@@ -41,7 +41,7 @@ export default (() => {
 			</Text>
 			<Image
 				width="100%"
-				src="https://images.unsplash.com/photo-1627662057514-f15bc58cc179?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+				src="https://uploads.quarkly.io/6116394f1f4350001e45648b/images/4-7-1_360x220.jpg?v=2021-08-14T11:58:10.532Z"
 				object-fit="cover"
 				opacity="1"
 				mix-blend-mode="overlay"
@@ -50,7 +50,17 @@ export default (() => {
 		</Section>
 		<Section background="--color-light" color="--dark" padding="64px 0">
 			<Stack>
-				<StackItem width="50%" lg-width="100%">
+				<StackItem
+					width="50%"
+					lg-width="100%"
+					position="absolute"
+					right="10px"
+					lg-bottom="260px"
+					lg-height="166px"
+					lg-left="auto"
+					lg-right="-50px"
+					lg-top="auto"
+				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text
 						font="--base"
